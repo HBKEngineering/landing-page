@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://hbkengineering.github.io/landing-page/"
 languageCode = "en-us"
 title = "Hugo Agency Theme"
 # Enter your tracking code to enable Google Analytics
