@@ -20,6 +20,16 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
+$(function(){
+    $(".intro-heading span").typed({
+      strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
+      loop: true,
+      backDelay: 3000,
+      showCursor: false,
+      typeSpeed: 0
+    });
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
