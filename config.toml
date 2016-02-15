@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://hbkengineering.github.io/landing-page/"
 languageCode = "en-us"
-title = "Hugo Agency Theme"
+title = "HBK Application Development Team"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
@@ -16,22 +16,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
-
-	# Since this template is static, the contact form uses www.formspree.io as a
-	# proxy. The form makes a POST request to their servers to send the actual
-	# email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-	email = "your@email.com"
-
+	name = "HBK Engineering Application Development Team"
+	description = "HBK Engineering Application Development Team"
 
 	# Navigation
 	[params.navigation]
@@ -42,7 +28,6 @@ googleAnalytics = ""
 		team = "Team"
 		contact = "Contact"
 
-
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
@@ -50,14 +35,11 @@ googleAnalytics = ""
 		title = "We build maps that power"
 		subtitle = "the internet."
 		buttonText = "Tell me more"
-
-
-	# works section
+	# work section
 	[params.work]
 		title = "Work for Us!"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Apply Now!"
-
 
         [[params.work.row]]
             [[params.work.row.list]]
@@ -90,13 +72,11 @@ googleAnalytics = ""
             category = "Category"
             buttonText = "Close project"
 
-
-    # About section
+  # About section
 	[params.about]
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		text = "Lorem ipsum dolor sit amet consectetur."
-
 
 	# Footer section
 	[params.footer]
