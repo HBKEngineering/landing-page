@@ -360,6 +360,24 @@ section h3.section-subheading {
     margin: 0 0 15px;
 }
 
+#portfolio .portfolio-preview:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#portfolio .portfolio-preview {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-preview img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
