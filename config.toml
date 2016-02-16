@@ -23,7 +23,8 @@ googleAnalytics = "UA-52362483-3"
 	[params.navigation]
 		brand = "HBK Apps"
 		work = "Join Us"
-		portfolio = "Our Projects"
+		projects = "Our Projects"
+		stack = "Our Stack"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
@@ -35,9 +36,10 @@ googleAnalytics = "UA-52362483-3"
 		title = "We build apps that build"
 		subtitle = "the internet"
 		buttonText = "Tell me more"
+
 	# work section
 	[params.work]
-		title = "Work for Us!"
+		title = "Join us!"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Apply Now!"
 
@@ -58,7 +60,7 @@ googleAnalytics = "UA-52362483-3"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 	# Portfolio section
-	[params.portfolio]
+	[params.projects]
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
@@ -66,17 +68,70 @@ googleAnalytics = "UA-52362483-3"
 		title = "Our Projects"
 		subtitle = "We <3 open source. Here are some open source projects we've been hacking on:"
 
-		[params.portfolio.modal]
+		[params.projects.modal]
+            client = "Project"
+            date = "Date"
+            category = "Category"
+          	buttonText = "Close project"
+
+	# Portfolio section
+	[params.stack]
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Our Stack"
+		subtitle = "All of our applications are web-based. Here's a bit of what's going on behind the scenes:"
+
+		[params.stack.modal]
             client = "Project"
             date = "Date"
             category = "Category"
             buttonText = "Close project"
 
+		# Team section
+		[params.team]
+			title = "Our team"
+			subtitle = "Lorem ipsum dolor sit amet consectetur."
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			# All team member's pictures are stored under 'static/img/team'.
+			# Replace them with your own too.
+			[[params.team.members]]
+				img = "1.jpg"
+				name = "Mike Naughton"
+				description = ""
+				social = [
+					["fa-twitter", "#"],
+					["fa-facebook", "#"],
+					["fa-linkedin", "#"]
+				]
+
+			[[params.team.members]]
+				img = "2.jpg"
+				name = "Matt Glynn"
+				description = ""
+				social = [
+					["fa-twitter", "#"],
+					["fa-facebook", "#"],
+					["fa-linkedin", "#"]
+				]
+
+			[[params.team.members]]
+				img = "3.jpg"
+				name = "Brett Neese"
+				description = ""
+				social = [
+					["fa-twitter", "#"],
+					["fa-facebook", "#"],
+					["fa-linkedin", "#"]
+				]
+
   # About section
 	[params.about]
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		text = "Lorem ipsum dolor sit amet consectetur."
+		# text = "Lorem ipsum dolor sit amet consectetur."
 
 	# Footer section
 	[params.footer]
