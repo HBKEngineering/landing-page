@@ -17,7 +17,6 @@
                         <p>{{ .description | markdownify }}</p>
                         <ul class="list-inline">
                             <li>{{ with $.Site.Params.projects.modal.client }}{{.}}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
-                            <li>{{ with $.Site.Params.projects.modal.category }}{{.}}{{ end }}: {{ .category }}</li>
                         </ul>
                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.projects.modal.buttonText }}{{.}}{{ end }}</button>
                     </div>
@@ -28,7 +27,7 @@
 </div>
 {{ end }}
 
-{{ range .Site.Data.projects }}
+{{ range .Site.Data.stack }}
 <div class="portfolio-modal modal fade" id="stackModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -46,7 +45,6 @@
                         <p>{{ .description | markdownify }}</p>
                         <ul class="list-inline">
                             <li>{{ with $.Site.Params.projects.modal.client }}{{.}}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
-                            <li>{{ with $.Site.Params.projects.modal.category }}{{.}}{{ end }}: {{ .category }}</li>
                         </ul>
                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.projects.modal.buttonText }}{{.}}{{ end }}</button>
                     </div>

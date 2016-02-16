@@ -37,27 +37,6 @@ googleAnalytics = "UA-52362483-3"
 		subtitle = "the internet"
 		buttonText = "Tell me more"
 
-	# work section
-	[params.work]
-		title = "Join us!"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Apply Now!"
-
-        [[params.work.row]]
-            [[params.work.row.list]]
-                icon = "fa-clock-o"
-                title = "Flexible hours"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.work.row.list]]
-                icon = "fa-laptop"
-                title = "Latest Tech"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.work.row.list]]
-                icon = "fa-lock"
-                title = "Close-knit team"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 	# Portfolio section
 	[params.projects]
@@ -91,9 +70,9 @@ googleAnalytics = "UA-52362483-3"
 
 		# Team section
 		[params.team]
-			title = "Our team"
-			subtitle = "Lorem ipsum dolor sit amet consectetur."
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+			title = "Our Team"
+			subtitle = ""
+			description = ""
 
 			# All team member's pictures are stored under 'static/img/team'.
 			# Replace them with your own too.
@@ -102,9 +81,9 @@ googleAnalytics = "UA-52362483-3"
 				name = "Mike Naughton"
 				description = ""
 				social = [
-					["fa-twitter", "#"],
-					["fa-facebook", "#"],
-					["fa-linkedin", "#"]
+					# ["fa-twitter", "#"],
+					# ["fa-facebook", "#"],
+					# ["fa-linkedin", "#"]
 				]
 
 			[[params.team.members]]
@@ -112,9 +91,9 @@ googleAnalytics = "UA-52362483-3"
 				name = "Matt Glynn"
 				description = ""
 				social = [
-					["fa-twitter", "#"],
-					["fa-facebook", "#"],
-					["fa-linkedin", "#"]
+					# ["fa-twitter", "#"],
+					# ["fa-facebook", "#"],
+					# ["fa-linkedin", "#"]
 				]
 
 			[[params.team.members]]
@@ -122,10 +101,33 @@ googleAnalytics = "UA-52362483-3"
 				name = "Brett Neese"
 				description = ""
 				social = [
-					["fa-twitter", "#"],
-					["fa-facebook", "#"],
-					["fa-linkedin", "#"]
+					# ["fa-twitter", "#"],
+					# ["fa-facebook", "#"],
+					# ["fa-linkedin", "#"]
 				]
+
+		# work section
+		[params.work]
+			title = "Join us!"
+			subtitle = "Sound like fun? We'd love to have you join our team."
+			buttonText = "Apply Now!"
+
+					[[params.work.row]]
+							[[params.work.row.list]]
+									icon = "fa-clock-o"
+									title = "Flexible hours"
+									description = ""
+
+							[[params.work.row.list]]
+									icon = "fa-laptop"
+									title = "Latest Tech"
+									description = ""
+
+							[[params.work.row.list]]
+									icon = "fa-lock"
+									title = "Close-knit team"
+									description = ""
+
 
 	# Footer section
 	[params.footer]
