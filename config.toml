@@ -1,9 +1,9 @@
 # Site settings
 baseurl = "http://hbkengineering.github.io/landing-page/"
 languageCode = "en-us"
-title = "HBK Application Development Team"
+title = "HBK Application Development Services"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-52362483-3"
 
 [params]
 
@@ -16,8 +16,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "HBK Engineering Application Development Team"
-	description = "HBK Engineering Application Development Team"
+	name = "HBK Engineering Application Development Services"
+	description = "HBK Engineering Application Development Services"
 
 	# Navigation
 	[params.navigation]
@@ -32,8 +32,8 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "We build maps that build"
-		subtitle = "the internet."
+		title = "We build apps that build"
+		subtitle = "the internet"
 		buttonText = "Tell me more"
 	# work section
 	[params.work]
@@ -64,7 +64,7 @@ googleAnalytics = ""
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Our Projects"
-		subtitle = "We <3 open source. Here's some open source projects we've been hacking on:"
+		subtitle = "We <3 open source. Here are some open source projects we've been hacking on:"
 
 		[params.portfolio.modal]
             client = "Project"

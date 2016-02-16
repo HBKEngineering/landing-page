@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HBK Application Development Team</title>
+    <title>HBK Application Development Services</title>
     <link>http://hbkengineering.github.io/landing-page/</link>
-    <description>Recent content on HBK Application Development Team</description>
+    <description>Recent content on HBK Application Development Services</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://hbkengineering.github.io/landing-page/index.xml" rel="self" type="application/rss+xml" />
