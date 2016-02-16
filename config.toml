@@ -22,7 +22,7 @@ googleAnalytics = "UA-52362483-3"
 	# Navigation
 	[params.navigation]
 		brand = "HBK Apps"
-		work = "Work for Us"
+		work = "Join Us"
 		portfolio = "Our Projects"
 		about = "About"
 		team = "Team"
