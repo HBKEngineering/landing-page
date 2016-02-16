@@ -127,12 +127,6 @@ googleAnalytics = "UA-52362483-3"
 					["fa-linkedin", "#"]
 				]
 
-  # About section
-	[params.about]
-		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		# text = "Lorem ipsum dolor sit amet consectetur."
-
 	# Footer section
 	[params.footer]
 		copyright = "©2016 HBK Engineering, LLC"
