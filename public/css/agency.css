@@ -185,6 +185,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-brand-with-image {
     background-size: 100% 100%;
     background-image: url(../img/logos/HBKLogo_RGB.svg);
+    width: 150px;
 }
 
 .navbar-default .navbar-brand:hover,
