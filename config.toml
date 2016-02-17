@@ -51,7 +51,7 @@ googleAnalytics = "UA-52362483-3"
             client = "Project"
             date = "Date"
             category = "Category"
-          	buttonText = "Close project"
+          	buttonText = "Close Project"
 
 	# Portfolio section
 	[params.stack]
@@ -63,10 +63,10 @@ googleAnalytics = "UA-52362483-3"
 		subtitle = "All of our applications are web-based. Here's a bit of what's going on behind the scenes:"
 
 		[params.stack.modal]
-            client = "Project"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
+            # client = "Website"
+            # date = "Date"
+            # category = "Category"
+            # buttonText = "Close project"
 
 		# Team section
 		[params.team]
@@ -79,7 +79,8 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "1.jpg"
 				name = "Mike Naughton"
-				description = ""
+				position = "Architect"
+				description = "Mike is the fearless leader of the team. With almost a decade of software development experience, he has done a little bit of everything. Mike works closely with users of the application to make sure everything is running smoothly. In his free time, Mike likes to pursue his hobbies of aviation, sailing, and volunteering."
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
@@ -89,6 +90,7 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "2.jpg"
 				name = "Matt Glynn"
+				position = "Developer"
 				description = ""
 				social = [
 					# ["fa-twitter", "#"],
@@ -99,6 +101,7 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "3.jpg"
 				name = "Brett Neese"
+				position = "Swiss Army Knife"
 				description = ""
 				social = [
 					# ["fa-twitter", "#"],
@@ -116,7 +119,7 @@ googleAnalytics = "UA-52362483-3"
 							[[params.work.row.list]]
 									icon = "fa-clock-o"
 									title = "Flexible hours"
-									description = ""
+									description = "At HBK, we understand the value of a work-life balance. We also understand that some people do their best work early in the morning while others are rockstars at night. We care more about what you do than when you do it."
 
 							[[params.work.row.list]]
 									icon = "fa-laptop"

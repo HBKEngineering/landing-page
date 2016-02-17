@@ -14,6 +14,7 @@
                     <img src="img/team/{{ .img }}" class="img-responsive img-circle" alt="">
                     <h4>{{ .name }}</h4>
                     <p class="text-muted">{{ .position }}</p>
+                    <p>{{ .description | markdownify }}</p>
                     <ul class="list-inline social-buttons">
                         {{ range .social }}
                         <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
