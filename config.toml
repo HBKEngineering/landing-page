@@ -134,4 +134,4 @@ googleAnalytics = "UA-52362483-3"
 
 	# Footer section
 	[params.footer]
-		copyright = "©2016 HBK Engineering, LLC | Esri and the Esri Logo are licensed trademarks of Environmental Systems Research Institute, Inc."
+		copyright = "©2016 HBK Engineering, LLC"

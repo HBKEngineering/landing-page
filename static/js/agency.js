@@ -21,13 +21,15 @@ $('body').scrollspy({
 })
 
 $(function(){
-    $(".intro-heading span").typed({
-      strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
-      loop: true,
-      backDelay: 3000,
-      showCursor: false,
-      typeSpeed: 0
-    });
+    if($(window).width() > 550){
+      $(".intro-heading span").typed({
+        strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
+        loop: true,
+        backDelay: 3000,
+        showCursor: false,
+        typeSpeed: 0
+      });
+  }
 });
 
 // Closes the Responsive Menu on Menu Item Click
