@@ -21,15 +21,14 @@ $('body').scrollspy({
 })
 
 $(function(){
-    console.log($(window).width());
     if($(window).width() > 550){
-    $(".intro-heading span").typed({
-      strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
-      loop: true,
-      backDelay: 3000,
-      showCursor: false,
-      typeSpeed: 0
-    });
+      $(".intro-heading span").typed({
+        strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
+        loop: true,
+        backDelay: 3000,
+        showCursor: false,
+        typeSpeed: 0
+      });
   }
 });
 
