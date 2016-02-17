@@ -33,7 +33,7 @@ googleAnalytics = "UA-52362483-3"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "We build apps that build"
+		title = "We build apps that design"
 		subtitle = "the internet"
 		buttonText = "Tell me more"
 
@@ -131,4 +131,4 @@ googleAnalytics = "UA-52362483-3"
 
 	# Footer section
 	[params.footer]
-		copyright = "©2016 HBK Engineering, LLC"
+		copyright = "©2016 HBK Engineering, LLC | Esri and the Esri Logo are licensed trademarks of Environmental Systems Research Institute, Inc."
