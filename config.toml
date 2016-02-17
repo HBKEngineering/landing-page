@@ -127,9 +127,9 @@ googleAnalytics = "UA-52362483-3"
 									description = "Our team is always experimenting with the latest web development technologies and practices. From forays into ES6 to managing deployments with Red Hat®'s OpenShift, we're constantly looking for technologies that help us improve our products."
 
 							[[params.work.row.list]]
-									icon = "fa-lock"
-									title = "Close-knit team"
-									description = ""
+									icon = "fa-coffee"
+									title = "Entrepreneurial Team"
+									description = "The Application Development team at HBK is small, agile, and open to new ideas. Whether you're an intern or a full-time employee, you can be sure that your contributions will have an impact for our team and for our users."
 
 
 	# Footer section
