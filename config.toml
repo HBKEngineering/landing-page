@@ -102,7 +102,7 @@ googleAnalytics = "UA-52362483-3"
 				img = "3.jpg"
 				name = "Brett Neese"
 				position = "Swiss Army Knife"
-				description = ""
+				description = "Brett is our resident expert in all things technology. Name a problem, and he can find you the right technology to solve it. Brett has worked on a wide variety of startups, and brings that same startup mentality to this team at HBK. When he can, Brett likes to impulsively buy tickets to faraway places just to see what happens, but also enjoys a good book."
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
