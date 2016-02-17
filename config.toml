@@ -45,7 +45,7 @@ googleAnalytics = "UA-52362483-3"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Our Projects"
-		subtitle = "We <3 open source. Here are some open source projects we've been hacking on:"
+		subtitle = "Here's what we've been working on lately:"
 
 		[params.projects.modal]
             client = "Project"
