@@ -1,6 +1,6 @@
 modalID: 2
 title: Construct
 subtitle: ''
-preview: openshift.png
+preview: construct.png
 category: Node.js
 description: 'Sails application providing web support for ComEd Construct program.'
