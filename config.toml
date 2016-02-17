@@ -90,7 +90,7 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "2.jpg"
 				name = "Matt Glynn"
-				position = "Developer"
+				position = "Full Stack Developer"
 				description = ""
 				social = [
 					# ["fa-twitter", "#"],
@@ -118,13 +118,13 @@ googleAnalytics = "UA-52362483-3"
 					[[params.work.row]]
 							[[params.work.row.list]]
 									icon = "fa-clock-o"
-									title = "Flexible hours"
+									title = "Flexible Hours"
 									description = "At HBK, we understand the value of a work-life balance. We also understand that some people do their best work early in the morning while others are rockstars at night. We care more about what you do than when you do it."
 
 							[[params.work.row.list]]
 									icon = "fa-laptop"
 									title = "Latest Tech"
-									description = ""
+									description = "Our team is always experimenting with the latest web development technologies and practices. From forays into ES6 to managing deployments with Red Hat®'s OpenShift, we're constantly looking for technologies that help us improve our products."
 
 							[[params.work.row.list]]
 									icon = "fa-lock"
