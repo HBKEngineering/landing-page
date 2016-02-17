@@ -282,9 +282,16 @@ header {
     -o-background-size: cover;
 }
 
+header .container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 header .intro-text .intro-lead-in {
