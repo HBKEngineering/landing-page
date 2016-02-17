@@ -21,6 +21,8 @@ $('body').scrollspy({
 })
 
 $(function(){
+    console.log($(window).width());
+    if($(window).width() > 550){
     $(".intro-heading span").typed({
       strings: ["the internet", "the electric grid", "wireless networks", "gas lines", "roadways"],
       loop: true,
@@ -28,6 +30,7 @@ $(function(){
       showCursor: false,
       typeSpeed: 0
     });
+  }
 });
 
 // Closes the Responsive Menu on Menu Item Click
