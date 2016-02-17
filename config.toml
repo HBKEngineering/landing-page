@@ -91,7 +91,7 @@ googleAnalytics = "UA-52362483-3"
 				img = "2.jpg"
 				name = "Matt Glynn"
 				position = "Full Stack Developer"
-				description = ""
+				description = "Matt is our \"go-to guy\" for squashing bugs and making sure that our applications are working just right. He comes to HBK with a background in electrical engineering and experience working on several different software teams. When he's not wrangling JavaScript, Matt likes to spend time experimenting with electronics, practicing Brazilian Jiu-Jitsu, and working on startups."
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
