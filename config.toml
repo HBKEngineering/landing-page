@@ -137,7 +137,7 @@ googleAnalytics = "UA-52362483-3"
 					[params.contact]
 				        enable = true
 						title = "Learn More"
-						subtitle  = "Lorem ipsum dolor sit amet consectetur."
+					#	subtitle  = "Lorem ipsum dolor sit amet consectetur."
 						buttonText = "Send Me Updates"
 
 						# 'warning' defines error messages for invalid inputs
