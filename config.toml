@@ -6,7 +6,6 @@ title = "HBK Application Development Services"
 googleAnalytics = "UA-52362483-3"
 
 [params]
-	form_url = "https://docs.google.com/forms/d/1Nd1ARhXc8dB0VnWE9MgxYoKaV_0-2Gba3JRY0L5cpQA/formResponse"
 
 	# You can use Markdown syntax for urls [text](//url.to/source) or
 	# most longer texts.
@@ -135,7 +134,9 @@ googleAnalytics = "UA-52362483-3"
 
 					# Contact section
 					[params.contact]
-				        enable = true
+						form_url = "https://docs.google.com/forms/d/1Nd1ARhXc8dB0VnWE9MgxYoKaV_0-2Gba3JRY0L5cpQA/formResponse"
+
+						enable = true
 						title = "Learn More + Apply"
 						subtitle  = "We'd love to have you join our team this summer. Sign up here to receive a full application."
 						buttonText = "Send Me Updates"

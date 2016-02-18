@@ -9,7 +9,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form  action="{{ with .Site.Params.form_url }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate target="_blank">
+                <form  action="{{ with .Site.Params.contact.form_url }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate target="_blank">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
