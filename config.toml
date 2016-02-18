@@ -6,6 +6,7 @@ title = "HBK Application Development Services"
 googleAnalytics = "UA-52362483-3"
 
 [params]
+	form_url = "https://docs.google.com/forms/d/1Nd1ARhXc8dB0VnWE9MgxYoKaV_0-2Gba3JRY0L5cpQA/formResponse"
 
 	# You can use Markdown syntax for urls [text](//url.to/source) or
 	# most longer texts.
@@ -130,6 +131,25 @@ googleAnalytics = "UA-52362483-3"
 									icon = "fa-coffee"
 									title = "Entrepreneurial Team"
 									description = "The Application Development team at HBK is small, agile, and open to new ideas. Whether you're an intern or a full-time employee, you can be sure that your contributions will have an impact for our team and for our users."
+
+
+					# Contact section
+					[params.contact]
+				        enable = true
+						title = "Learn More"
+						subtitle  = "Lorem ipsum dolor sit amet consectetur."
+						buttonText = "Send Me Updates"
+
+						# 'warning' defines error messages for invalid inputs
+						[params.contact.form.name]
+							text = "Your Name *"
+							warning = "Please enter your name."
+
+						[params.contact.form.email]
+							text = "Your Email *"
+							warning = "Please enter your email address."
+
+					# Footer section
 
 
 	# Footer section

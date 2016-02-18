@@ -9,32 +9,25 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+                <form  action="{{ with .Site.Params.form_url }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ . }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . }}{{ end }}">
+                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ . }}{{ end }}" name="entry.1628314454" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . }}{{ end }}">
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . }}{{ end }}" name="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . }}{{ end }}">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{ . }}{{ end }}" name="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.warning }}{{ . }}{{ end }}">
-                                <p class="help-block text-danger"></p>
-                            </div>
+
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . }}{{ end }}" name="message" required data-validation-required-message="{{ with .Site.Params.contact.form.message.warning }}{{ . }}{{ end }}"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . }}{{ end }}" name="entry.977091266" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . }}{{ end }}">
+                              <p class="help-block text-danger"></p>
+                          </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">{{ with .Site.Params.contact.buttonText }}{{ . }}{{ end }}</button>
+                            <button type="submit" class="btn btn-xl" onclick="window.open({{ .Site.BaseURL }})">{{ with .Site.Params.contact.buttonText }}{{ . }}{{ end }}</button>
                         </div>
                     </div>
                 </form>
