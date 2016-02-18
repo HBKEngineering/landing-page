@@ -2,5 +2,6 @@ modalID: 1
 title: MapFramework
 subtitle: ''
 preview: mapframework.png
-category: Node.js
-description: MapFramework is a prototyping tool for our engineers.
+category: Sails.js
+position: 1
+description: "MapFramework is our primary application. It facilitates geospatial project collaboration amongst civil engineers, utility locators, clients, and other interested parties."

@@ -3,4 +3,5 @@ title: Tracky
 subtitle: ''
 preview: tracky.jpg
 category: Node.js
-description: Tracky is an internal tool, used to coordinate interactions between OpenShift, our server platform; Slack, our chat platform; YouTrack, our issue tracker; and TeamCity, our build server.
+position: 3
+description: "Tracky is an internal tool, used to coordinate interactions between OpenShift, our server platform; Slack, our chat platform; YouTrack, our issue tracker; and TeamCity, our build server."

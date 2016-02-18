@@ -8,9 +8,9 @@
             </div>
         </div>
         <div class="row">
-            {{ range .Site.Data.projects }}
+            {{ range sort .Site.Data.projects "position" }}
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#projectsModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+                <a href="#{{ .modalID }}" class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
@@ -21,6 +21,7 @@
                 <div class="portfolio-caption">
                     <h4>{{ .title }}</h4>
                     <p class="text-muted">{{ .category }}</p>
+                    <p>{{ .description | markdownify }}</p>
                 </div>
             </div>
             {{ end }}
