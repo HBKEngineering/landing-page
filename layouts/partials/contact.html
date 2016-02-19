@@ -7,7 +7,7 @@
                 <h3 class="section-subheading text-muted">{{ with .Site.Params.contact.subtitle }}{{ . }}{{ end }}</h3>
             </div>
         </div>
-        <div class="row">
+        <div id="contactFormRow" class="row">
             <div class="col-lg-12">
                 <form  action="{{ with .Site.Params.contact.form_url }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate target="_blank">
                     <div class="row">
@@ -31,6 +31,11 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div id="contactConfirmRow" class="row" style="display:none; opacity:0;">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">{{ with .Site.Params.contact.confirmation }}{{ . }}{{ end }}</h3>
             </div>
         </div>
     </div>

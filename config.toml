@@ -140,6 +140,7 @@ googleAnalytics = "UA-52362483-3"
 						title = "Learn More + Apply"
 						subtitle  = "We'd love to have you join our team this summer. Sign up here to receive a full application."
 						buttonText = "Send Me Updates"
+						confirmation = "Thank you for your interest!"
 
 						# 'warning' defines error messages for invalid inputs
 						[params.contact.form.name]
