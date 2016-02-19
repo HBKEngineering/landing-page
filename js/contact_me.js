@@ -23,6 +23,44 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+    var $contactFormRow = $("#contactFormRow");
+    var $contactConfirmRow = $("#contactConfirmRow");
+    var $contactContainer = $("#contact .container");
+    var $contactForm = $("#contactForm");
+
+    $contactForm.ajaxForm().on('submit', function(){
+        $contactContainer.css({
+            'min-height': $contactContainer.height(),
+            'max-height': $contactContainer.height()
+        });
+
+        $contactFormRow.transition({
+            opacity: 0
+        }, function(){
+            $contactFormRow.hide();
+            $contactConfirmRow.show().transition({
+                opacity: 1
+            }, function(){
+                setTimeout(function(){
+                    $contactConfirmRow.transition({
+                        opacity: 0
+                    }, function(){
+                        $contactConfirmRow.hide();
+                        $contactForm.clearForm();
+                        $contactFormRow.show().transition({
+                            opacity: 1
+                        }, function(){
+                            $contactContainer.css({
+                                'min-height': '',
+                                'max-height': ''
+                            });
+                        });
+                    });
+                }, 450);
+            });
+        });
+    });
 });
 
 /*When clicking on Full hide fail/success boxes */
