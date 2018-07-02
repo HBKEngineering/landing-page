@@ -1,0 +1,7 @@
+modalID: 3
+title: Permit Automation
+subtitle: ''
+preview: permitautomation.jpg
+category: Typescript
+position: 3
+description: "This helper script converts pole survey reports to an ASAC permit. It is an internal tool for HBK's permitting department, used for pole permits from various clients."

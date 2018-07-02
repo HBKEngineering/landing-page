@@ -60,7 +60,7 @@ googleAnalytics = "UA-52362483-3"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Our Stack"
-		subtitle = "All of our applications are web-based. Here's a bit of what's going on behind the scenes:"
+		subtitle = "Here's a bit of what's going on behind the scenes:"
 
 		[params.stack.modal]
             # client = "Website"
@@ -79,7 +79,7 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "1.jpg"
 				name = "Mike Naughton"
-				position = "Architect"
+				position = "Lead Application Developer"
 				description = "Mike is the fearless leader of the team. With almost a decade of software development experience, he has done a little bit of everything. Mike works closely with users of the application to make sure everything is running smoothly. In his free time, Mike likes to pursue his hobbies of aviation, sailing, and volunteering."
 				social = [
 					# ["fa-twitter", "#"],
@@ -89,9 +89,9 @@ googleAnalytics = "UA-52362483-3"
 
 			[[params.team.members]]
 				img = "2.jpg"
-				name = "Matt Glynn"
-				position = "Full Stack Developer"
-				description = "Matt is our \"go-to guy\" for squashing bugs and making sure that our applications are working just right. He comes to HBK with a background in electrical engineering and experience working on several different software teams. When he's not wrangling JavaScript, Matt likes to spend time experimenting with electronics, practicing Brazilian Jiu-Jitsu, and working on startups."
+				name = "Emily Dones"
+				position = "Project Administrator"
+				description = "Emily focuses on user support, documentation, quality control/acceptance testing, user advocacy, and user interface design. She has experience performing data conversions and publishing map services using ArcGIS. Additionally, Emily creates designs using Adobe CC, Sketch, and front-end code (HTML/CSS)."
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
@@ -101,7 +101,7 @@ googleAnalytics = "UA-52362483-3"
 			[[params.team.members]]
 				img = "3.jpg"
 				name = "Brett Neese"
-				position = "Swiss Army Knife"
+				position = "DevOps Engineer"
 				description = "Brett is our resident expert in all things technology. Name a problem, and he can find you the right technology to solve it. Brett has worked on a wide variety of startups, and brings that same startup mentality to this team at HBK. When he can, Brett likes to impulsively buy tickets to faraway places just to see what happens, but also enjoys a good book."
 				social = [
 					# ["fa-twitter", "#"],
@@ -124,7 +124,7 @@ googleAnalytics = "UA-52362483-3"
 							[[params.work.row.list]]
 									icon = "fa-laptop"
 									title = "Latest Tech"
-									description = "Our team is always experimenting with the latest web development technologies and practices. From forays into ES6 to managing deployments with Red Hat®'s OpenShift, we're constantly looking for technologies that help us improve our products."
+									description = "Our team is always experimenting with the latest web development technologies and practices. From implementing Atlassian software, to merging our codebase to React.js, we are constantly looking for technologies that help us improve our products."
 
 							[[params.work.row.list]]
 									icon = "fa-coffee"
@@ -156,4 +156,4 @@ googleAnalytics = "UA-52362483-3"
 
 	# Footer section
 	[params.footer]
-		copyright = "©2016 HBK Engineering, LLC"
+		copyright = "©2018 HBK Engineering, LLC"

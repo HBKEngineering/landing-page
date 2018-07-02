@@ -1,0 +1,7 @@
+modalID: 2
+title: HOTT - HBK O'Calc Transfer Tool
+subtitle: ''
+preview: hott.png
+category: Typescript
+position: 2
+description: "This helper script converts pole survey reports to O'Calc XML format. Poles, spans, and attachments are built, given an excel file input."
