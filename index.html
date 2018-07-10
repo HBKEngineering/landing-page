@@ -14,6 +14,7 @@
 <link href="http://hbkengineering.github.io/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="http://hbkengineering.github.io/css/agency.css" rel="stylesheet">
+<link href="css/hover-min.css" rel="stylesheet">
 <!-- Custom Fonts -->
 <link href="http://hbkengineering.github.io/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -107,20 +108,19 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Our Projects</h2>
-                <h3 class="section-subheading text-muted">Here&rsquo;s what we&rsquo;ve been working on lately:</h3>
+                <h3 class="section-subheading text-muted">Here is what we have been working on lately:</h3>
             </div>
         </div>
         <div class="row">
             
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#1" class="portfolio-link">
+                <a href="https://where.hbkapps.com" target="_blank" class="portfolio-link"></a>
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
                     <div class="portfolio-preview"><img src="img/projects/where.png" class="img-responsive" alt=""></div>
-                </a>
+                
                 <div class="portfolio-caption">
                     <h4>HBK Where</h4>
                     <p class="text-muted">Javascript, Go, React.js</p>
@@ -279,6 +279,21 @@
                     <p class="text-muted">Database</p>
                 </div>
             </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="portfolio-link">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <div class="portfolio-preview"><img src="img/stack/adobe.png" class="img-responsive" alt=""></div>
+                  </a>
+                  <div class="portfolio-caption">
+                      <h4>Adobe Creative Cloud</h4>
+                      <p class="text-muted">Database</p>
+                  </div>
+              </div>
             
             <div class="col-md-4 col-sm-6 portfolio-item">
               <a href="https://nodejs.org/en/" target="_blank" class="portfolio-link">
@@ -317,7 +332,9 @@
                     <p class="text-muted">Lead Application Developer</p>
                     <p>Mike is the fearless leader of the team. With almost a decade of software development experience, he has done a little bit of everything. Mike works closely with users of the application to make sure everything is running smoothly. In his free time, Mike likes to pursue his hobbies of aviation, sailing, and volunteering.</p>
                     <ul class="list-inline social-buttons">
-                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/mikenaughton"><i class="fa fa-linkedin"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -329,7 +346,7 @@
                     <p class="text-muted">Project Administrator</p>
                     <p>Emily focuses on user support, documentation, quality control/acceptance testing, user advocacy, and user interface design. She has experience performing data conversions and publishing map services using ArcGIS. Additionally, Emily creates designs using Adobe CC, Sketch, and front-end code (HTML/CSS).</p>
                     <ul class="list-inline social-buttons">
-                        
+                                        <li><a href="https://www.linkedin.com/in/emilydones"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -412,7 +429,11 @@
         </div>
         <div id="contactFormRow" class="row">
             <div class="col-lg-12">
-                <form  action="https://docs.google.com/forms/d/1Nd1ARhXc8dB0VnWE9MgxYoKaV_0-2Gba3JRY0L5cpQA/formResponse" method="POST" name="sentMessage" id="contactForm" novalidate target="_blank">
+                    <form
+                    method="POST"
+                    name="sentMessage"
+                    id="contactForm" action="//formspree.io/edones@hbkengineering.com"></form>
+                    
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
