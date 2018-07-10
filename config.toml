@@ -84,7 +84,7 @@ googleAnalytics = "UA-52362483-3"
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
-					# ["fa-linkedin", "#"]
+					# ["fa-linkedin", "https://www.linkedin.com/in/mikenaughton"]
 				]
 
 			[[params.team.members]]
@@ -95,7 +95,7 @@ googleAnalytics = "UA-52362483-3"
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
-					# ["fa-linkedin", "#"]
+					# ["fa-linkedin", "https://www.linkedin.com/in/emilydones"]
 				]
 
 			[[params.team.members]]
@@ -106,13 +106,13 @@ googleAnalytics = "UA-52362483-3"
 				social = [
 					# ["fa-twitter", "#"],
 					# ["fa-facebook", "#"],
-					# ["fa-linkedin", "#"]
+					# ["fa-linkedin", "https://www.linkedin.com/in/brettneese"]
 				]
 
 		# work section
 		[params.work]
-			title = "Join us!"
-			subtitle = "Sound like fun? We'd love to have you join our team."
+			title = "Join Us!"
+			subtitle = "Sound like fun? We would love to have you join our team."
 			buttonText = "Apply Now!"
 
 					[[params.work.row]]
@@ -134,13 +134,13 @@ googleAnalytics = "UA-52362483-3"
 
 					# Contact section
 					[params.contact]
-						form_url = "https://docs.google.com/forms/d/1Nd1ARhXc8dB0VnWE9MgxYoKaV_0-2Gba3JRY0L5cpQA/formResponse"
-
 						enable = true
 						title = "Learn More + Apply"
-						subtitle  = "We'd love to have you join our team this summer. Sign up here to receive a full application."
+						subtitle  = "We would love to have you join our team. Sign up here to receive a full application."
 						buttonText = "Send Me Updates"
 						confirmation = "Thank you for your interest!"
+						email = "edones@hbkengineering.com"
+
 
 						# 'warning' defines error messages for invalid inputs
 						[params.contact.form.name]
